@@ -43,6 +43,9 @@ const Footer = () => {
             <SC.LinkNav to="/sign-up">Investors</SC.LinkNav>
             <SC.LinkNav to="/sign-up">Terms of Service</SC.LinkNav>
           </SC.LinkItems>
+        </SC.LinksWrapper>
+
+        <SC.LinksWrapper>
           <SC.LinkItems>
             <SC.LinkTitle>Videos</SC.LinkTitle>
             <SC.LinkNav to="/sign-up">How it works</SC.LinkNav>
@@ -64,43 +67,37 @@ const Footer = () => {
 
       <SC.SocialMedia>
         <SC.SocialMediaWrap>
-          <SC.SocialMedia>
-            <SC.SocialLogo to="/">
-              <SC.SocialIcon />
-              ULTRA
-            </SC.SocialLogo>
-            <SC.WebsiteRights>ULTRA © 2020</SC.WebsiteRights>
-            <SC.SocialIcons>
-              <SC.SocialIconLink href="/" target="_blank" aria-label="Facebook">
-                <FaFacebook />
-              </SC.SocialIconLink>
+          <SC.SocialLogo to="/">
+            <SC.SocialIcon />
+            ULTRA
+          </SC.SocialLogo>
+          <SC.WebsiteRights>ULTRA © 2020</SC.WebsiteRights>
+          <SC.SocialIcons>
+            <SC.SocialIconLink href="/" target="_blank" aria-label="Facebook">
+              <FaFacebook />
+            </SC.SocialIconLink>
 
-              <SC.SocialIconLink
-                href="/"
-                target="_blank"
-                aria-label="Instagram"
-              >
-                <FaInstagram />
-              </SC.SocialIconLink>
+            <SC.SocialIconLink href="/" target="_blank" aria-label="Instagram">
+              <FaInstagram />
+            </SC.SocialIconLink>
 
-              <SC.SocialIconLink
-                href="/"
-                target="_blank"
-                aria-label="Youtube"
-                rel="noopener-noreferrer"
-              >
-                <FaYoutube />
-              </SC.SocialIconLink>
+            <SC.SocialIconLink
+              href="/"
+              target="_blank"
+              aria-label="Youtube"
+              rel="noopener-noreferrer"
+            >
+              <FaYoutube />
+            </SC.SocialIconLink>
 
-              <SC.SocialIconLink href="/" target="_blank" aria-label="Twitter">
-                <FaTwitter />
-              </SC.SocialIconLink>
+            <SC.SocialIconLink href="/" target="_blank" aria-label="Twitter">
+              <FaTwitter />
+            </SC.SocialIconLink>
 
-              <SC.SocialIconLink href="/" target="_blank" aria-label="LinkedIn">
-                <FaLinkedin />
-              </SC.SocialIconLink>
-            </SC.SocialIcons>
-          </SC.SocialMedia>
+            <SC.SocialIconLink href="/" target="_blank" aria-label="LinkedIn">
+              <FaLinkedin />
+            </SC.SocialIconLink>
+          </SC.SocialIcons>
         </SC.SocialMediaWrap>
       </SC.SocialMedia>
     </SC.Container>
